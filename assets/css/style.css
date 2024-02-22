@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+.navbar {
+    background-color: #28A745;
+}
+
+.navbar img { 
+     width: 8rem;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255,255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler{
+    border: 1px solid white;
+}
+
+#products h5{
+    color: #212529;
+    font-weight: 300;
+}
+
+#products .card-text{
+    color: #707070;
+    font-weight: 200;
+}
+
+#products .direccion{
+    color: #707070;
+    font-weight: 200;
+}
+
+#products hr{
+    color:#707070A0
+}
+
+.precio{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.precio-oferta {
+    color: #28A745;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#cupones {
+    background-color: #28A745;
+    color: white;
+    font-weight: 500;
+}
+
+#cupones h5{
+    font-size: 21px;
+}
+
+.btn {
+    width: 8rem;
+    height: 2.5rem;
+    vertical-align: auto;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+footer img{
+    width: 6rem;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
